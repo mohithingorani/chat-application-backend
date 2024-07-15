@@ -10,7 +10,7 @@ const server = http.createServer(app);
 // Create a new instance of Socket.IO and pass the server instance
 const io = new SocketIOServer(server, {
     cors: {
-        origin: "http://localhost:3000",
+        origin: "https://chat-app-frontend-4yoy-jnji9t53b-mohit-hingoranis-projects.vercel.app/",
         methods: ["GET", "POST"]
     }
 });
