@@ -14,7 +14,7 @@ const server = http_1.default.createServer(app);
 // Create a new instance of Socket.IO and pass the server instance
 const io = new socket_io_1.Server(server, {
     cors: {
-        origin: "https://chat-app-frontend-4yoy-jnji9t53b-mohit-hingoranis-projects.vercel.app/",
+        origin: "*",
         methods: ["GET", "POST"]
     }
 });
